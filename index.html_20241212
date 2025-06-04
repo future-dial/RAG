@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)http://seretod.org/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+	<title>FutureDial Home</title>
+			<link rel="stylesheet" type="text/css" href="./index_files/web.css">
+			
+			<link rel="icon" href="./index_files/logo.png" type="image/x-icon">
+			<script type="text/javascript">
+				window.onload = function(){
+					var but = document.getElementById("but");
+					but.onclick = function(){
+						alert("89746")
+					}
+				}
+			</script>
+	<style>
+		.green a:link,a:visited{color: #0000EE;text-decoration:underline;}
+		.green a:hover{text-decoration: underline;}
+		
+	</style></head>
+	<body>
+		<div class="title_bar">
+			<div class="title">
+				<div class="logo">
+					<img src="./SereTOD Accepted Papers_files/logo.png" alt="" style="width: unset !important;;height: 100%;">
+				</div>
+				<ul style="width:400px;height:60px;float: left;">
+					<a style="text-decoration: none;font:400 22px/60px &#39;microsoft yahei&#39;;color:#fff" href="./index.html">FutureDial-RAG 2024 Challenge
+				</a></ul><a style="text-decoration: none;font:400 22px/60px &#39;microsoft yahei&#39;;color:#fff" href="./index.html">
+				</a><ul class="label" style="float: right;height:60px;"><a style="text-decoration: none;font:400 22px/60px &#39;microsoft yahei&#39;;color:#fff" href="http://seretod.org/">
+					</a><a style="text-decoration: none;color:#101010;font: 400 16px/60px &#39;microsoft yahei&#39;;" href="./index.html"><li>Home</li></a>
+					<a style="text-decoration: none;color:#101010" href="./Organizers.html"><li>Organizers</li></a>
+					<a style="text-decoration: none;color:#101010" href="./Program.html"><li>Program</li></a>
+					<!-- <a style="text-decoration: none;color:#101010" href="./SereTOD Challenge.html"><li>Challenge</li></a>
+					<a style="text-decoration: none;color:#101010" href="./SereTOD Accepted%20Papers.html"><li>Accepted Papers</li></a>
+					
+					<a style="text-decoration: none;color:#101010" href="./SereTOD Call%20for%20Papers.html"><li>Call for Papers</li></a> -->
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<h1 style="font: 700 26px/50px &#39;microsoft yahei&#39;;color:#fff;text-align: center;">The 2nd FutureDial Challenge co-located with SLT 2024
+				<br>Dialog Systems with Retrieval Augmented Generation</h1>
+			<h1 style="font: 700 26px/80px &#39;microsoft yahei&#39;;color:#fff;text-align: center;margin-top:30px; color:#7dd1fb;">Home</h1>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px &#39;microsoft yahei&#39;;color:#101010;text-align: center;">Overview
+				</h1>
+		</div>
+		<div class="main">
+			<span style="width:63%;font:400 16px/32px &#39;microsoft yahei&#39;;color:&#39;#101010&#39;;">Developing intelligent dialog systems has been one of the longest running goals in AI. Significant progress has been made in building dialog systems with deep learning methods and more recently with large language model. However, there are still full of challenges toward building future dialog systems. The 1st challenge <a href="http://seretod.org/">FutureDial-SereTOD</a> focused on building semi-supervised and reinforced task-oriented dialog systems, which was successfully held at EMNLP 2022 SereTOD workshop. Retrieval augmented generation (RAG) has been introduced to enhance dialog systems with higher accuracy and factuality, providing more informative and grounded responses. However, there remain challenges for RAG-based dialog systems such as retrieving knowledge from multiple knowledge sources, building RAG-based dialog systems with available tools and API-calls, and etc. To further promote the study of how to empower dialog systems with RAG, we organize the 2nd challenge FutureDial-RAG. This challenge aims to benchmark and stimulate research in building dialog systems with RAG, with the newly released dialog dataset, MobileCS2 (Mobile Customer Service), in both Chinese and English versions. The challenge includes two tracks: Information retrieval based on knowledge bases and dialog context (Track 1), and Dialog systems with retrieval augmented generation (Track 2).  
+			</span>
+		</div>
+		<div class="tuite" style="width:100vw;height:24px;margin:0 auto;margin-top:30px;display: flex;justify-content: center;">
+
+			<a href="https://twitter.com/FutureDial_" style="margin-right: 3px;">
+			<img src="./index_files/x.png" style="width: 18px;height: 18px;">
+
+				<!-- X -->
+			</a>
+			<p style="color:#101010;float:right;margin-left: 3px">
+				<a href="https://twitter.com/FutureDial_">
+					Check out FutureDial-RAG
+				</a>
+			</p>
+	
+					<!-- X -->
+			
+			
+
+
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px &#39;microsoft yahei&#39;;color:#101010;text-align: center;">News
+				</h1>
+		</div>
+		<div class="green" style="height: unset;">
+
+			<!-- 2024/4/29 The MobileCS2 dataset for the challenge has been released to registered teams. -->
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/12/01&nbsp;</span>
+				<span> The program for the FutureDial-RAG Challenge Special Session at SLT 2024 is posted <a href="http://futuredial.org/Program.html">here</a>. </span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/07/23&nbsp;</span>
+				<span> The test data with labels for both Track 1 and Track 2 have been released via email.</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/07/20&nbsp;</span>
+				<span> We are pleased to announce the evaluation results for both Track 1 and Track 2, which can be accessed via <a href="https://docs.google.com/spreadsheets/d/1rXkeyiTyAFsFwNU9_EnvOdxWsGQXbQImyE5TxBKga7w/edit?usp=sharing">this link</a>. Congratulations to the teams who submitted effective results for FutureDial-RAG Challenge!</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/05/10&nbsp;</span>
+				<span> Registration deadline is extended by one month to June 9; Accordingly, the due dates for entry submission and evaluation announcement are also extended.</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/05/07&nbsp;</span>
+				<span> The <a href="https://github.com/futuredialchallenge/2024-RAG">code repository</a> for baseline systems and evaluation scripts for both Track 1 and Track 2  is released.</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/04/29&nbsp;</span>
+				<span> The MobileCS2 dataset for the challenge has been released to registered teams. Challenge description paper is available <a href="https://arxiv.org/abs/2405.13084">here</a>.</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2024/04/09&nbsp;</span>
+				<span> Registration opening for challenge! To register for the challenge, please fulfill the form (<a href="./index_files/English_Registration_Form(1).docx">English form</a>, <a href="./index_files/Chinese_Registration_Form.docx">Chinese form</a>) and send to FutureDialRAG (at) gmail (dot) com to complete the registration. Registration deadline is May 9, 2024. Welcome to join <a href="https://groups.google.com/g/futuredial">FutureDial Google Group</a>, where we will distribute messages relevant to the Challenge.</span>
+			</p>
+			<!--<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/12/17&nbsp;</span>
+				<span> The live recording of the SereTOD Workshop, including all sessions of Opening Remarks, 3 Invited Talks, 4 Oral Sessions, SereTOD Challenge Awards, and Panel, could be accessed <span1 href="https://www.bilibili.com/video/BV158411V7k1?p=1">here</span1>! You can select different sessions by the video selector on the right of the video. Enjoy it!</span>
+			</p><p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/11/27&nbsp;</span>
+				<span>  Due to recent situation regarding COVID-19 in Beijing, EMNLP 2022 SereTOD Workshop is to be held fully virtually via <span1 href="https://us06web.zoom.us/j/84794256519">a Zoom webinar</span1>. The virtual poster session can be accessed from EMNLP 2022 online platform via GatherTown. Click <span1 href="https://us06web.zoom.us/j/84794256519">here</span1> to join the Workshop!</span>
+			</p><p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/11/23&nbsp;</span>
+				<span> Information about <span1 href="http://seretod.org/Invited%20Speakers.html">invited speakers</span1> and <span1 href="http://seretod.org/Panel.html">panel</span1> posted! <span1 href="https://forms.gle/RssZ7Tiiskk9yFGn7">SereTOD 2022 Panel Questionnaire</span1> opened up! Feel free to let us know what topics you would like to see discussed at the panel. </span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/11/03&nbsp;</span>
+				<span>SereTOD Workshop <span1 href="http://seretod.org/Program.html">Program</span1> published!</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/10/10&nbsp;</span>
+				<span>Notification of paper acceptance sent out! Given the high-quality submissions received and the capacity of the Workshop, the selection process was very competitive and the acceptance rate is 47%, with 11 accepted papers.
+				</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/9/14&nbsp;</span>
+				<span>The ground-truth labels/responses of the test data for both Track 1 and Track 2 have been released via email.</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/9/10&nbsp;</span>
+				<span>We are pleased to announce the evaluation results for both Track 1 and Track 2, which can be accessed via <span1 href="https://docs.google.com/spreadsheets/d/1w28AKkG6Wjmuo15QlRlRyrnv859MT1ry0CHV8tFxY9o/edit?usp=sharing">this link</span1>. Congratulations to the 15 teams, who submitted effective results, out of the total of 62 teams registered for SereTOD Challenge!</span>
+			</p>
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">			
+			<span>2022/8/27&nbsp;</span>
+				<span>
+					Manuscripts that have been reviewed for EMNLP 2022 and were rejected have the opportunity to be considered for publication in the Workshop proceedings.
+					The deadline for submitting EMNLP manuscripts and reviews is October 7, 2022. See details in <span1 href="http://seretod.org/Call%20for%20Papers.html">Call for Papers</span1>.
+				</span>
+			</p>	
+					<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/8/14&nbsp;</span>
+				<span>
+					Entry Submission due date is extended by 10 days to August 31. Accordingly, the due dates for Evaluation Results Announced and Regular Paper Submission are also extended by 10 days.
+				</span>
+			</p>
+			
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/8/14&nbsp;</span>
+				<span>
+					Evaluation data have been released to registered teams.
+				</span>
+			</p>				
+
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/8/02&nbsp;</span>
+				<span>
+					We have provided computer resources to 12 teams. Thanks the support from <span1 href="https://jiutian.10086.cn/#/home">JiuTian</span1> !
+				</span>
+			</p>				
+
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/7/05&nbsp;</span>
+				<span>
+					The <span1 href="https://github.com/SereTOD/SereTOD2022">code repository</span1> for baseline systems and evaluation scripts for both Track 1 and Track 2 are released.
+				</span>
+			</p>		
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/7/01&nbsp;</span>
+				<span>
+					The MobileCS dataset for SereTOD Challenge has been released to registered teams.
+				</span>
+			</p>	
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span> 2022/4/29&nbsp;</span>
+				<span>
+					<b>SereTOD Challenge Kickoff Seminar</b> is completed! Introduction to the Challenge (by Zhijian Ou), talk videos from invited speakers (from Xiaodong He, Luo Si, Kai Yu, Zhengyu Niu, Wanxiang Che), panel recording (hosted by Junlan Feng), are available <span1 href="https://www.bilibili.com/video/BV1AR4y1P7xh?p=1">here</span1>
+					!
+				</span>
+			</p>
+
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span>2022/4/19&nbsp;</span>
+				<span>
+					Registration opening for challenge, as detailed in <span1 href="http://seretod.org/Challenge.html"> Call for Participation</span1> !
+				</span>
+			</p>
+
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:left;display: flex;">
+				<span> 2022/2/23&nbsp;</span>
+				<span>
+					Announcement of 
+					<span1 href="http://seretod.org/Call%20for%20Papers.html">Call for Papers</span1>
+					!
+				</span>
+			</p> -->
+
+		</div>
+		<div class="font_title">
+			<h1 id="Important" style="font:700 30px/50px &#39;microsoft yahei&#39;;color:#101010;text-align: center; "><span1 name="xinxi">Important Dates (AOE)</span1>
+				</h1>
+		</div>
+		<div class="table" style="width: 80%;">
+			<table cellspacing="10" style="border-collapse:collapse;" border="0">
+			<tbody><tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;">
+				<del>April 9, 2024</del>
+				
+			</td>
+			<td style="width:580px;">
+				<del>Registration opening for challenge</del>
+				
+			</td>
+			</tr>
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;">
+					<del>April 29, 2024</del></td>
+				<td style="width:580px;">
+					<del>
+						Training data release </del>
+						<!-- (extended) -->
+				</td>
+			</tr>
+			<!-- <tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;">May 31, 2024</td>
+				<td style="width:580px;">Evaluation data release </td>
+			</tr> -->
+			<!-- <tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;">June 10, 2024</td>
+				<td style="width:580px;">Entry submission deadline</td>
+			</tr>
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;">June 20, 2024</td>
+				<td style="width:580px;">Evaluation results announced</td>
+			</tr> -->
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;"><del>June 20, 2024</del></td>
+				<td style="width:580px;"><del>SLT paper submission due</del></td>
+			</tr>
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;"><del>June 27, 2024</del></td>
+				<td style="width:580px;"><del>SLT paper update due</del></td>
+			</tr>
+			
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;"><del>July 10, 2024</del></td>
+				<td style="width:580px;"><del>Entry submission deadline</del></td>
+			</tr>
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;"><del>July 20, 2024</del></td>
+				<td style="width:580px;"><del>Evaluation results announced</del></td>
+			</tr>
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;"><del>August 30, 2024</del></td>
+				<td style="width:580px;"><del>Notification of paper acceptance</del></td>
+			</tr>
+			<tr>
+				<td style="width:580px;text-align:right;font: 400 16px/32px &#39;microsoft yahei&#39;;color:#101010;">December 2-5, 2024</td>
+				<td style="width:580px;">SLT2024 Workshop Date (in-person)</td>
+			</tr>
+			</tbody></table>
+		</div>
+		<!-- <div class="font_title">
+			<h1 style="font: 700 30px/50px &#39;microsoft yahei&#39;;color:#101010;text-align: center;">Invited Speakers
+				</h1>
+		</div> -->
+		<!-- <div style="margin:0px auto; width:63%;" class="r"> -->
+			
+			<!-- <p></p><li style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;;list-style: none;"><span1 style="" href="http://seretod.org/Invited%20Speakers.html#Dilek%20Hakkani-Tur">To be decided</span1></li><p></p> -->
+			<!-- <p></p><li style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;;list-style: none;"><span1 style="text-decoration: underline;color:#0000EE" href="http://seretod.org/Invited%20Speakers.html#Jason%20Williams">Jason Williams, Apple</span1></li><p></p>
+			<p></p><li style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;;list-style: none;"><span1 style="text-decoration: underline;color:#0000EE" href="http://seretod.org/Invited%20Speakers.html#Pascale%20Fung">Pascale Fung, HKUST</span1></li><p></p> -->
+		<!-- </div> -->
+		<!-- <div class="font_title">
+			<h1 style="font: 700 30px/50px &#39;microsoft yahei&#39;;color:#101010;text-align: center;">Supported by
+				</h1>
+		</div>
+		<div class="green" style="height: unset;">
+			<p style="width:100%;font:400 16px/32px &#39;microsoft yahei&#39;;color:#101010;text-align:center;">Joint Institute of Tsinghua University - China Mobile Communications Group Co. Ltd.</p>
+		</div> -->
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px &#39;microsoft yahei&#39;;color:#101010;text-align: center;">Contact
+				</h1>
+		</div>
+		<div style="margin:0px auto; width:63%;" class="r">
+			<!-- <p style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;">Junlan Feng (fengjunlan@chinamobile.com)</p>
+			<p style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;">Zhijian Ou (ozj@tsinghua.edu.cn)</p>
+			<p style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;">Yi Huang (huangyi@chinamobile.com)</p> -->
+			<p style="text-align:center;font:400 16px/32px &#39;microsoft yahei&#39;">FutureDialRAG (at) gmail (dot) com</p>
+
+			
+		</div>
+		<div class="bottom">
+			<div class="img-box">
+				<img src="./index_files/2footer.png" alt="" style="width: 100%;height: unset !important;">
+			</div>
+		</div>
+		<div style="margin-top:40px;" class="footer_bar">
+			<div class="footer">
+				<p style="color:#fff;font:400 16px/60px &#39;microsoft yahei&#39;;text-align:center;">Copyright © FutureDial-RAG Organizers. All rights reserved.</p>
+			</div>
+		</div>
+	
+
+</body></html>
